@@ -28,7 +28,7 @@ This includes:
  * Rotate Icon starts the rotation throught module setup.
  * Standby Icon clear the screen of any current modules and stop the rotation.
  * Hidden Icon call hidden menu with hidden module and has a auto hide  
- * It's posiisble to have only the left menu and leave right empty in the config
+ * It's possible to have only the left menu and leave right empty in the config
 
 
 
