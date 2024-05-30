@@ -19,7 +19,7 @@ This includes:
 |---|---|---|
 | Menu option | Module Icon & Restart & Shutdown option | Transform back to mirror on Standby mode |
 
-| ![Screenshot 2024-05-30 103301](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/e9737dd3-d4ab-4aa0-8f7d-644c0b85f91c) | ![Screenshot](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/df92efc8-0189-4b2f-b8e0-363283c33b14) | ![Screenshot 5](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dbeeb2f3-4a34-4208-982c-91c6e8411261)|
+| ![Screenshot 2024-05-30 104403](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dc7e81bc-b22b-428e-b406-cf44edf05d7a) | ![Screenshot](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/df92efc8-0189-4b2f-b8e0-363283c33b14) | ![Screenshot 5](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dbeeb2f3-4a34-4208-982c-91c6e8411261)|
 |---|---|---|
 | Menu option | Module Icon & Restart & Shutdown option | Transform back to mirror on Standby mode |
 
