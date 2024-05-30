@@ -17,11 +17,11 @@ This includes:
 
 | ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/b011c57c-669c-471b-a010-6581ef6cdada) | ![Screenshot 2](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/76ff50cc-d7d6-4973-b17b-0068b01f1434) | ![Screenshot 4](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/5e185bcd-7d8e-499c-9963-acf9623ec85e)|
 |---|---|---|
-| Menu option | Module Icon & Restart & Shutdown option | Transform back to mirror on Standby mode |
+| Menu option | Module Icons, Rotation, Restart & Shutdown option | Call Modules via Icon |
 
-| ![Screenshot 2024-05-30 104403](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dc7e81bc-b22b-428e-b406-cf44edf05d7a) | ![Screenshot](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/df92efc8-0189-4b2f-b8e0-363283c33b14) | ![Screenshot 5](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dbeeb2f3-4a34-4208-982c-91c6e8411261)|
+| ![Screenshot 2024-05-30 104403](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dc7e81bc-b22b-428e-b406-cf44edf05d7a) | ![Screenshot](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/df92efc8-0189-4b2f-b8e0-363283c33b14) | ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/d533d060-8086-4ff1-8c05-6f58caeb4b30)|
 |---|---|---|
-| Menu option | Module Icon & Restart & Shutdown option | Transform back to mirror on Standby mode |
+| Hidden Menu | Module Rotation | Transform back to mirror on Standby mode |
 
 ## View Demo of full integration
 
