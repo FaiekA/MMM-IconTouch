@@ -66,16 +66,66 @@ npm install
 
 ## Step 2 – Add files to the Config.js
 
-Here is an example for an entry in `config.js`
+Here is the config entry 
 
 ```javascript
-{
-  module: 'MMM-SmartTouch', 
-  position: 'bottom_center',    // This can be any of the regions.(bottom-center Recommended)
-  config:{ 
-    // None configuration options defined 
-  }
-}
+	   {
+	 		module: 'MMM-IconTouch', 
+			 animateIn: 'backInDown',     // Optional 
+			 animateOut: 'backOutDown',  	// Optional 
+			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
+			config: {
+				menuAutoHideDelay: '5000',  // Default value, set to 'none' to disable
+				rotationTime: 3000, // Time in milliseconds for each rotation step			
+				buttons: [
+					// Add more buttons as needed
+				],
+				buttonsRight: [
+								
+					// Add more buttons for the right-side menu as needed
+				],
+				hiddenModules: [ ]
+
+			}
+		},
+```
+
+Here is an example for an entry - change to your Modules in the `config.js`
+
+```javascript
+	   {
+	 		module: 'MMM-IconTouch', 
+			 animateIn: 'backInDown',     // Optional 
+			 animateOut: 'backOutDown',  	// Optional 
+			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
+			config: {
+				menuAutoHideDelay: '5000',  // Default value, set to 'none' to disable
+				rotationTime: 3000, // Time in milliseconds for each rotation step			
+				buttons: [
+					{ label: 'Clock', icon: 'clock.png', modules: ['clock','calendar','weather','newsfeed'] },    // Multiple Modules entry 
+					{ label: 'Calendar', icon: 'calendar.png',modules: ['MMM-CalendarExt3','MMM-CalendarExt3Agenda','MMM-CalendarExt3Journal','calendar'] },
+					{ label: 'News', icon: 'news.png',modules: ['MMM-NewsAPI','newsfeed','MMM-anotherNewsFeed'] },					
+					{ label: 'Weather', icon: 'weather.png' ,modules: ['MMM-OpenWeatherMapForecast','MMM-OpenWeatherMap'] },
+					{ module: 'MMM-birthdays', label: 'Home', icon: 'home.png'},   // Single module entry	
+
+					// Add more buttons as needed
+				],
+				buttonsRight: [
+					{ module: 'MMM-HA', label: 'HA', icon: 'hasos.png' },				// Single module entry	
+					{ label: 'Sports', icon: 'sport.png', modules: ['MMM-SoccerLiveScore','MMM-Rugby','MMM-Formula1'] },   // Multiple Modules entry 
+
+									
+					// Add more buttons for the right-side menu as needed
+				],
+				hiddenModules: [
+					{ module: 'compliments', label: 'Comps', icon: 'Activa.png' },	// a hiddem module or modules that is not included in the rotation 
+					{ label: "Islamic", icon: "islam.png", modules: ["MMM-RandomQuranAyah", "MMM-IPT"] },
+
+					// Add more buttons for the right-side menu as needed		
+				]
+
+			}
+		},
 ```
 
 ## Configuration options
