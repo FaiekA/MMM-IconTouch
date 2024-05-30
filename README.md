@@ -19,7 +19,7 @@ This includes:
 |---|---|---|
 | Menu option | Module Icons, Rotation, Restart & Shutdown option | Call Modules via Icon |
 
-| ![Screenshot 2024-05-30 104403](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dc7e81bc-b22b-428e-b406-cf44edf05d7a) | ![Screenshot](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/df92efc8-0189-4b2f-b8e0-363283c33b14) | ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/d533d060-8086-4ff1-8c05-6f58caeb4b30)|
+| ![Screenshot 2024-05-30 104403](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/dc7e81bc-b22b-428e-b406-cf44edf05d7a) | ![Screenshot 6](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/effed13e-6c63-4a9f-aa6d-303008eba229) | ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/d533d060-8086-4ff1-8c05-6f58caeb4b30)|
 |---|---|---|
 | Hidden Menu | Module Rotation | Transform back to mirror on Standby mode |
 
