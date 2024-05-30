@@ -78,6 +78,7 @@ Here is the config entry
 			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
 			config: {
 				menuAutoHideDelay: 5000,  // Default value, set to 'none' to disable
+				hiddenMenuAutoHideDelay: 6000, // Default delay in milliseconds (6 seconds)
 				rotationTime: 3000, // Time in milliseconds for each rotation step			
 				buttons: [
 					// Add more buttons as needed
@@ -102,6 +103,7 @@ Here is an example for an entry - change to your Modules in the `config.js`
 			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
 			config: {
 				menuAutoHideDelay: 5000,  // Default value, set to 'none' to disable
+				hiddenMenuAutoHideDelay: 6000, // Default delay in milliseconds (6 seconds)
 				rotationTime: 3000, // Time in milliseconds for each rotation step			
 				buttons: [
 					{ label: 'Clock', icon: 'clock.png', modules: ['clock','calendar','weather','newsfeed'] },    // Multiple Modules entry 
