@@ -43,8 +43,9 @@ This includes:
 ## View Demo
 
 
-![Animation3](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/7204c34c-3b97-46cf-a159-c171e049b18c)
-
+|![Animation3](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/7204c34c-3b97-46cf-a159-c171e049b18c)|
+|---|---|
+| Demo  | In Action  |
 ## Preconditions
 
 * You will need a Interactive Touch screen peripheral such as an IR Frame or Capacitive Touch)
@@ -59,8 +60,8 @@ In your MagicMirror directory:
 ```bash 
 cd modules
 cd ~/MagicMirror/modules
-git clone https://github.com/EbenKouao/MMM-SmartTouch.git
-cd MMM-SmartTouch
+git clone https://github.com/FaiekA/MMM-IconTouch.git
+cd MMM-IconTouch
 npm install
 ```
 
