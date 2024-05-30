@@ -42,9 +42,8 @@ This includes:
 
 ## View Demo of full integration
 
-![Touchscreen UI](img/readme/touchscreen-ui.png)
+![Animation](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/413ca498-39b6-4d0f-8634-93c5d653647e)
 
-View full demo on [SmartBuilds.io](http:smartbuilds.io)
 
 ## Preconditions
 
