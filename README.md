@@ -26,6 +26,7 @@ This includes:
   Main Menu toggles the left and right menus.
   Rotate Icon starts the rotation throught module setup.
   Standby Icon clear the screen of any current modules and stop the rotation.
+  Hidden Icon call hidden menu with hidden module 
   it posiisble to have only the left menu and leave right empty in the config
 
 
@@ -76,7 +77,7 @@ Here is the config entry
 			 animateOut: 'backOutDown',  	// Optional 
 			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
 			config: {
-				menuAutoHideDelay: '5000',  // Default value, set to 'none' to disable
+				menuAutoHideDelay: 5000,  // Default value, set to 'none' to disable
 				rotationTime: 3000, // Time in milliseconds for each rotation step			
 				buttons: [
 					// Add more buttons as needed
@@ -100,7 +101,7 @@ Here is an example for an entry - change to your Modules in the `config.js`
 			 animateOut: 'backOutDown',  	// Optional 
 			position: 'bottom_center',    // This can be any of the regions. (bottom_center recommended)
 			config: {
-				menuAutoHideDelay: '5000',  // Default value, set to 'none' to disable
+				menuAutoHideDelay: 5000,  // Default value, set to 'none' to disable
 				rotationTime: 3000, // Time in milliseconds for each rotation step			
 				buttons: [
 					{ label: 'Clock', icon: 'clock.png', modules: ['clock','calendar','weather','newsfeed'] },    // Multiple Modules entry 
@@ -130,5 +131,7 @@ Here is an example for an entry - change to your Modules in the `config.js`
 ```
 
 ## Configuration options
+
+## Known Limitations / Issues
 
 None configuration options
