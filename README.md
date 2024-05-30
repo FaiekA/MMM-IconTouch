@@ -1,4 +1,4 @@
-# MMM-SmartTouch
+# MMM-IconTouch
 
 A module for controlling your [MagicMirror](https://github.com/MichMich/MagicMirror) using a
 touchscreen interface project by [SmartBuilds.io](http:smartbuilds.io)
@@ -15,7 +15,7 @@ This includes:
 
 ## Screenshots
 
-| ![Menu Option Below](img/readme/default-ui.png) | ![Side Menu](img/readme/side-menu.png) | ![Standby Mode (Hide All Modules)](img/readme/standby-mode.png) |
+| ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/b011c57c-669c-471b-a010-6581ef6cdada)! | ![Side Menu](img/readme/side-menu.png) | ![Standby Mode (Hide All Modules)](img/readme/standby-mode.png) |
 |---|---|---|
 | Menu option | Shutdown & Restart option | Transform back to mirror on Standby mode |
 
