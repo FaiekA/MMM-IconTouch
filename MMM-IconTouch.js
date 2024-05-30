@@ -1,6 +1,7 @@
 Module.register("MMM-IconTouch", {
     defaults: {
         menuAutoHideDelay: 5000, // Default delay in milliseconds (5 seconds)
+        hiddenMenuAutoHideDelay: 6000, // Default delay in milliseconds (6 seconds)	
         rotationTime: 3000, // Time in milliseconds for each rotation step
         buttons: [],
         buttonsRight: [], // Add right-side buttons if needed
@@ -261,16 +262,20 @@ Module.register("MMM-IconTouch", {
 
     toggleHiddenMenu: function() {
         const hiddenMenu = document.querySelector(".st-container__hidden-menu");
-    
+
         if (hiddenMenu.classList.contains("show")) {
             hiddenMenu.classList.remove("show");
         } else {
             hiddenMenu.classList.add("show");
-    
-            // Hide the menu after 6 seconds
-            setTimeout(() => {
-                hiddenMenu.classList.remove("show");
-            }, 6000);
+
+            // Use the configured auto-hide delay
+            const autoHideDelay = this.config.hiddenMenuAutoHideDelay;
+
+            if (autoHideDelay !== 'none' && autoHideDelay > 0) {
+                setTimeout(() => {
+                    hiddenMenu.classList.remove("show");
+                }, autoHideDelay);
+            }
         }
     },
     
