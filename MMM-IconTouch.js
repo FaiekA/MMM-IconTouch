@@ -267,10 +267,10 @@ Module.register("MMM-IconTouch", {
         } else {
             hiddenMenu.classList.add("show");
     
-            // Hide the menu after 5 seconds
+            // Hide the menu after 6 seconds
             setTimeout(() => {
                 hiddenMenu.classList.remove("show");
-            }, 10000);
+            }, 6000);
         }
     },
     
