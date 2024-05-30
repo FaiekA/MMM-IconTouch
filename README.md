@@ -15,7 +15,9 @@ This includes:
 
 ## Screenshots
 
-| ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/b011c57c-669c-471b-a010-6581ef6cdada) | (https://github.com/FaiekA/MMM-IconTouch/assets/52759676/52c8dbbb-7162-4392-af72-79e701caf5b1) | (https://github.com/FaiekA/MMM-IconTouch/assets/52759676/8f185921-62e0-4da5-8ada-7cefde1b096e)|
+| ![Screenshot 1](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/b011c57c-669c-471b-a010-6581ef6cdada) | ![Screenshot 2](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/76ff50cc-d7d6-4973-b17b-0068b01f1434)
+ |![Screenshot 4](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/5e185bcd-7d8e-499c-9963-acf9623ec85e)
+ |
 |---|---|---|
 | Menu option | Shutdown & Restart option | Transform back to mirror on Standby mode |
 
