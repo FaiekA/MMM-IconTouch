@@ -131,7 +131,10 @@ Here is an example for an entry - change to your Modules in the `config.js`
 ```
 
 ## Configuration options
+None configuration options
 
 ## Known Limitations / Issues
 
-None configuration options
+## License
+MIT License
+
