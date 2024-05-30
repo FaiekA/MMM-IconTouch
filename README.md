@@ -40,10 +40,10 @@ This includes:
 |---|---|---|
 | Hidden Menu | Module Rotation | Transform back to mirror on Standby mode |
 
-## View Demo of full integration
+## View Demo
 
-![Animation](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/413ca498-39b6-4d0f-8634-93c5d653647e)
 
+![Animation3](https://github.com/FaiekA/MMM-IconTouch/assets/52759676/7204c34c-3b97-46cf-a159-c171e049b18c)
 
 ## Preconditions
 
