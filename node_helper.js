@@ -1,8 +1,5 @@
 /* Magic Mirror
- * Node Helper: MMM-SmartTouch
- *
- * By SmartBuilds.io - Pratik and Eben
- * https://smartbuilds.io
+ * Node Helper: MMM-IconTouch
  * MIT Licensed.
  */
 const NodeHelper = require("node_helper")
@@ -18,7 +15,7 @@ module.exports = NodeHelper.create({
       if (!this.started) {
         this.config = payload;
         this.started = true;
-        console.log("Smart Touch module has started")
+        console.log("Icon Touch module has started")
         this.sendSocketNotification("SHUTIT", payload);
       }
     }
