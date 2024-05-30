@@ -10,24 +10,25 @@ This module allows you to transform your magic mirror into a touchscreen interac
 This includes:
 
 * **Standby Mode** - Hide all magic mirror modules and convert back to a normal mirror by pressing the  button.
-* **Side Menus** - Two Menus left and right icons for Modules and Module Sets includes a _rotate_, _shutdown_ and _restart_ of Rpi to safely power down your mirror.
+* **Side Menus** - Two Menus left and right icons for Modules and Module
+* **Fixed Icon** - In Left menu are 4 fixed icons _hidden_, _rotate_, _shutdown_ and _restart_.
 * **Rotaion Icon** - Start the Rotation - through the Modules or Module sets - similar to MMM-Pages.
-* **Hidden Menu Icon** - Calls a hiiden menu from the top of the screen with the hidden module icon/icons.
+* **Hidden Menu Icon** - Calls a hidden menu from the top of the screen with the hidden module icon/icons.
   
 ## Module Features
-* **Menu Left** - Main left menu - With fixed _Rotate_, _Hidden Icon_, _Restart_ and _Shutdown_ icons with addtional modules to place in the config.
+* **Menu Left** - Main left menu - With fixed _Rotate_, _Hidden_, _Restart_ and _Shutdown_ icons with addtional space for modules to setup in the config.
 * **Menu Right** - Additional menu that could hold more icons for modules or module sets.
 * **Hiddden Menu** - these Module or Modules are not included in the rotation cycle and is set in the config.
 * **Module Icons** - Choose your own icons for your module or module sets (Pages) and name then as you please
 * **Rotation Icon** - Rotates through your module or module set linked to a specific icon like Pages - excluding module or module sets  -  set in the config as hidden.
-* **Restart & Shudown** - Self explanatory
+* **Restart & Shudown** - Self explanatory - for the Rpi to safely power down your mirror
   
-* **General Behaviour**
-  Main Menu toggles the left and right menus.
-  Rotate Icon starts the rotation throught module setup.
-  Standby Icon clear the screen of any current modules and stop the rotation.
-  Hidden Icon call hidden menu with hidden module 
-  it posiisble to have only the left menu and leave right empty in the config
+## General Behaviour
+ * Main Menu toggles the left and right menus and has a auto hide
+ * Rotate Icon starts the rotation throught module setup.
+ * Standby Icon clear the screen of any current modules and stop the rotation.
+ * Hidden Icon call hidden menu with hidden module and has a auto hide  
+ * It's possible to have only the left menu and leave right empty in the config
 
 
 
