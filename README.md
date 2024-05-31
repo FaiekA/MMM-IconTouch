@@ -137,7 +137,8 @@ Here is an example for an entry - change to your Modules in the `config.js`
 None configuration options
 
 ## Known Limitations / Issues
-*Left and Right menus extends over modules althought the semi trasparent you have the option to reduce regions away from the conners for better aesthetics via custom css
+* Left and Right menus extends over modules althought the semi trasparent you have the option to reduce regions away from the conners for better aesthetics via custom css
+```javascript
 	.region.top.left {
 	  left: 4%;
 	 }
@@ -151,6 +152,7 @@ None configuration options
 	.region.bottom.right {
 	  right: 4%;
 	}
+```
   Adjust as needs 
   
 ## License
