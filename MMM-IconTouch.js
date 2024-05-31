@@ -3,6 +3,7 @@ Module.register("MMM-IconTouch", {
         menuAutoHideDelay: 5000, // Default delay in milliseconds (5 seconds)
         hiddenMenuAutoHideDelay: 6000, // Default delay in milliseconds (6 seconds)	
         rotationTime: 3000, // Time in milliseconds for each rotation step
+		iconSize: 80, // Default icon size in pixels        
         buttons: [],
         buttonsRight: [], // Add right-side buttons if needed
         hiddenModules: [] // Not included in on screen rotation 
@@ -21,9 +22,23 @@ Module.register("MMM-IconTouch", {
     },
 
     
-    getStyles: function() {
-        return [this.file("css/mmm-icontouch.css"), "font-awesome.css"];
-    },
+	getStyles: function() {
+		const iconSizeStyle = `
+			.st-container__module-button img,
+			.st-container__standby-button img,
+			.st-container__menu-toggle img,
+			.st-container__main-menu > ul > li img {
+				width: ${this.config.iconSize}px;
+				height: ${this.config.iconSize}px;
+			}
+		`;
+
+		const styleElement = document.createElement("style");
+		styleElement.innerHTML = iconSizeStyle;
+		document.head.appendChild(styleElement);
+
+		return [this.file("css/mmm-icontouch.css"), "font-awesome.css"];
+	},
 
     getTranslations: function() {
         return {
@@ -78,14 +93,19 @@ Module.register("MMM-IconTouch", {
         modulesToShow.forEach(moduleName => {
             const module = MM.getModules().find(m => m.name === moduleName);
             if (module) {
-                module.hidden ? module.show(1000) : module.hide(1000);
                 if (module.hidden) {
-                    this.activeModules.push(module);
+                    module.show(1000, () => {
+                        console.log("Showing module:", module.name);
+                        this.activeModules.push(module);
+                    });
+                } else {
+                    console.log("Module is already shown:", module.name);
                 }
+            } else {
+                console.log("Module not found:", moduleName);
             }
         });
-    },
-    
+    },   
 
     createModuleButton: function(buttonConfig) {
         const buttonContainer = document.createElement("li");
@@ -444,7 +464,7 @@ Module.register("MMM-IconTouch", {
     
         const label = document.createElement("div");
         label.className = "label";
-        label.innerText = this.translate('S/DOWN');
+        label.innerText = this.translate('SHUTDOWN');
         button.appendChild(label);
     
         button.addEventListener("click", () => {
